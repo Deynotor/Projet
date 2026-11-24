@@ -1,6 +1,29 @@
 
 #include <stdio.h>
 
+// ===== Constantes =====
+#define LIGNES 15
+#define COLONNES 15
+#define MORTE 0
+#define VIVANTE 1
+
+// Regles de Conway
+#define NAISSANCE 3
+#define SURVIE_MIN 2
+#define SURVIE_MAX 3
+#define VOISINAGE 1
+
+// Regles du jeu
+#define TOURS_MAX 30
+#define NB_POSES 2
+#define NB_CATASTROPHES_DEBUT 2
+#define TOURS_PAR_PALIER 10
+
+// Depart : des blocs de 4 cellules (formes stables) sur la diagonale
+#define NB_BLOCS 3
+#define DEBUT_BLOCS 2
+#define ECART_BLOCS 4
+
 // Constantes du programme
 #define NB_LIGNES 10
 #define NB_COLONNES 10
